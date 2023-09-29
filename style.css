@@ -20,11 +20,11 @@ ol {
   background-color: rgba(22, 20, 20, 0.966);
 }
 .image {
-  width: 70%;
-  height: 700px;
+  width: 60%;
+  height: 480px;
   position: absolute;
-  top: 25%;
-  left: 15%;
+  top: 28%;
+  left: 20%;
   animation: Left 2s ease-out;
 }
 .text {
@@ -101,6 +101,11 @@ ol {
   }
 }
 @media only screen and (max-width: 960px) {
+  .media {
+   
+    bottom: 30px;
+   
+  }
   .big-text {
     margin: 0 auto;
     font-size: 180px;
@@ -112,14 +117,16 @@ ol {
   }
   .image {
     width: 70%;
-    height: 500px;
+    height: 360px;
     position: absolute;
-    top: 25%;
-    left: 15%;
+    top: 28%;
+    left: 14%;
     animation: Left 2s ease-out;
+
   }
 }
 @media only screen and (max-width: 786px) {
+
   .big-text {
     margin: 5px auto;
     font-size: 135px;
@@ -128,40 +135,43 @@ ol {
   .text {
     margin: 0 auto;
   }
-  .image {
-    height: 400px;
-    top: 22%;
-  }
+ 
   .media {
     font-size: 34px;
-    bottom: 80px;
+    bottom: 50px;
     width: 100%;
     text-align: center;
   }
 }
 @media only screen and (max-width: 586px) {
+  .image {
+    width: 78%;
+    height: 295px;
+    position: absolute;
+    top: 28%;
+    left: 9%;
+    animation: Left 2s ease-out;
+}
+  }
   .big-text {
     padding: 10px 1%;
-    font-size: 87px;
+    font-size: 97px;
     animation: Right 2s ease-out;
   }
-  .image {
-    width: 80%;
-    height: 500px;
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    animation: Left 2s ease-out;
+
+  .media {
+    font-size: 30px;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
   }
   .nav {
     justify-content: center;
   }
 
-  .image {
-    height: 300px;
-  }
+ 
   .media {
     font-size: 24px;
-    bottom: 80px;
+    bottom: 90px;
   }
 }
